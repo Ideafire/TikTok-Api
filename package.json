@@ -1,0 +1,8 @@
+{
+  "name": "ideafire-tiktok-api",
+  "private": true,
+  "scripts": {
+    "build": "docker build . -t tiktokapi:latest",
+    "dev": "docker run -p 105:105 tiktokapi:latest",
+  }
+}
